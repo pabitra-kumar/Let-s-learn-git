@@ -6,7 +6,8 @@ public class sum{
        int a,b;
        a=Integer.parseInt(JOptionPane.showInputDialog("Enter First Number"));
        b=Integer.parseInt(JOptionPane.showInputDialog("Enter Second Number"));
-       System.out.println("Sum of two number is : "+a+"+"+b+"="+(a+b));
+       int c= a+b;
+       System.out.println("Sum of two number is : "+a+"+"+b+"="+c);
 
 
     }
